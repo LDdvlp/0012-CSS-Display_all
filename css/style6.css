@@ -1,0 +1,376 @@
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('../fonts/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	color: #000000;
+	background-color: #EEF2F2;
+	margin: 15px 15px 15px 15px;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid red;
+	font-family: 'playfair_displayregular' , Arial;
+}
+
+#wrapper {
+	background-color: #23498B;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid black;
+}
+
+header {
+	background-color: #BE794C;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid orange;
+}
+
+#mainTitleWithLogo {
+	background-color: #999666;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid black;
+}
+
+#withLogo {
+	padding: 10px 10px 10px 10px;
+	border: 5px solid blue;
+}
+
+#mainTitle {
+	padding: 10px 10px 10px 10px;
+	border: 5px solid green;
+}
+
+nav {
+	background-color: #F3D020;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid red;
+	font-family: 'playfair_displayblack' , Arial;
+	font-size: 1em;
+}
+
+#bannerImage {
+	background-color: #BE3623;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid red;
+}
+
+#bannerDescription {
+	background-color: #BE7218;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid blue;
+}
+
+section {
+	background-color: #9EC8F2;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid orange;
+}
+
+article {
+	background-color: #EEF2F2;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid blue;
+}
+
+aside {
+	background-color: #CAF343;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid red;
+}
+
+footer {
+	background-color: #1C4174;
+	padding: 10px 10px 10px 10px;
+	border: 5px solid red;
+}
+
+#footercase1, #footercase3 {
+	padding: 10px 10px 10px 10px;
+	border: 5px solid orange;
+}
+
+#footercase2 {
+	padding: 10px 10px 10px 10px;
+	border: 5px solid green;
+}
+
+#footercase31 {
+	padding: 10px 10px 10px 10px;
+	border: 5px solid blue;
+}
+
+#footercase32 {
+	padding: 10px 10px 10px 10px;
+	border: 5px solid green;
+}
+
+#footercase33 {
+	padding: 10px 10px 10px 10px;
+	border: 5px solid red;
+}
+
+
+/*--------------------------------------------------------------------------------------*
+|display : flex;  			  													|
+|																						|
+|																						|
+*---------------------------------------------------------------------------------------*/
+
+.flex-container {
+	display: -webkit-flex;
+	display : flex;
+    height: 300px;
+    border: 5px solid green;
+    background-color: lightgrey;
+
+}
+
+.flex-item {
+	color: black;
+    background-color: cornflowerblue;
+    height: 200px;
+    margin: 5px;
+}
+
+
+/*--------------------------------------------------------------------------------------*
+|display : inline;  			  												     	|
+|																						|
+|																						|
+*---------------------------------------------------------------------------------------*/
+
+li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/*--------------------------------------------------------------------------------------*
+|Styling Links :		  												     	        |
+|Links can be styled with any CSS property (e.g. color, font-family, background, etc.). |
+|RESPECT THE ORDER 1 2 3 4 !!!																						|
+|																						|
+*---------------------------------------------------------------------------------------*/
+
+/* 1-unvisited link */
+a:link {
+    color: red;
+}
+
+/* 2-visited link */
+a:visited {
+    color: black;
+}
+
+/* 3-mouse over link */
+div.flex-container,a:hover {
+    color: hotpink;
+    text-decoration: overline;
+    background-color: lightgrey;
+}
+
+/* 4-selected link */
+a:active {
+    color: blue;
+}
+
+#footercase31 a, #footercase32 a, #footercase33 a  {
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+@font-face {
+    font-family: 'fff_tusjbold';
+    src: url('fonts/fff_tusj-webfont.eot');
+    src: url('fonts/fff_tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fff_tusj-webfont.woff2') format('woff2'),
+         url('fonts/fff_tusj-webfont.woff') format('woff'),
+         url('fonts/fff_tusj-webfont.ttf') format('truetype'),
+         url('fonts/fff_tusj-webfont.svg#fff_tusjbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#menu a {
+	color: black;
+	background-color: #90cac1;
+	font-family: 'fff_tusjbold' , Arial;
+	font-size: 0.85em;
+}
+
+body {
+    background-color:#FAA800;
+}
+
+*/
+
+/*
+
+h1 {
+	background-color: #850719;
+	color: #FFFFF4
+}
+
+
+#ari {
+	font-family: Arial;
+}
+
+#arb {
+	font-family: "Arial Black";
+}
+
+#csm {
+	font-family: "Comic Sans MS";
+}
+
+#cnw {
+	font-family: "Courier New";
+}
+
+#geo {
+	font-family: Georgia;
+}
+
+#imp {
+	font-family: Impact;
+}
+
+#tnr {
+	font-family: "Times New Roman";
+}
+
+#trm {
+	font-family: Trebuchet MS;
+}
+
+#ver {
+	font-family: Verdana;
+}
+
+.mod1 {
+	font-size: 2.0em;
+	font-family: 'fff_tusjbold', Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+.mod2 {
+	font-size: 2.0em;
+	font-family: Arial, Verdana, sans-serif;
+	font-style: italic;
+}
+.mod2b {
+	font-size: 2.0em;
+	font-family: Arial, Verdana, sans-serif;
+	font-style: oblique;
+}
+
+.mod3 {
+	font-size: 2.0em;
+	font-family: 'fff_tusjbold', Impact, "Arial Black", Arial, Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.mod4 {
+	font-size: 2.0em;
+	font-family: Arial, Verdana, sans-serif;
+	text-decoration: underline;
+}
+
+.mod5 {
+	font-size: 2.0em;
+	font-family: Arial, Verdana, sans-serif;
+	text-decoration: overline;
+}
+
+.mod6 {
+	font-size: 2.0em;
+	font-family: Arial, Verdana, sans-serif;
+	text-decoration: line-through;
+}
+
+.mod6b {
+	font-size: 2.0em;
+	font-family: Arial, Verdana, sans-serif;
+	text-decoration: blink;
+}
+
+.mod7 {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: left;
+}
+
+.mod8 {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: right;
+}
+
+.mod9 {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+}
+
+.mod10 {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: justify;
+}
+
+.mod12 {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: justify;
+}
+
+.fl1 {
+	float: left;
+}
+
+.fl2 {
+	float: right;
+}
+
+.cl1{
+	clear: right;
+}
+
+
+*/
